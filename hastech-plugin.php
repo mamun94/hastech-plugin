@@ -34,8 +34,11 @@ define('HP_PLUGIN_PATH', plugin_dir_path(HP_PLUGIN_FILE));
 define('HP_PLUGIN_DIR_URL', plugin_dir_url(HP_PLUGIN_FILE));
 define('HP_PLUGIN_ASSETS', trailingslashit(HP_PLUGIN_DIR_URL . 'assets' ));
 
+
+
 // Required File
 require_once HP_PLUGIN_PATH . 'include/functions.php';
+require_once HP_PLUGIN_PATH . 'init.php';
 
 /**
  * Register a custom menu page.
